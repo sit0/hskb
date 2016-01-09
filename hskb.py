@@ -11,7 +11,7 @@ WIDTH, HEIGHT = k.get_geometry()
 CLICK_DELAY = 0.3
 
 XY = {}
-XY['end_turn'] = int(WIDTH * (HEIGHT / WIDTH < 0.75 and 0.8 or 0.92)), int(HEIGHT * 0.46)
+XY['end_turn'] = int(WIDTH * (HEIGHT / WIDTH < 0.75 and 0.92 or 0.80)), int(HEIGHT * 0.46)
 XY['hero_power'] = int(WIDTH / 2 + WIDTH / 9), int(HEIGHT * 3 / 4)
 XY['hero'] = WIDTH / 2, int(HEIGHT * 3 / 4)
 XY['enemy'] = WIDTH / 2, int(HEIGHT / 6)
